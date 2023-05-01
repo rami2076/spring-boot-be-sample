@@ -20,8 +20,10 @@ curl -i -X POST \
  http://localhost:8080/word-list
 ```
 
+簡単なHTMLは[こちら](public/index.html)
+
 ## 備考
 
 ITとコントローラの実装までできています。
-[IT](src/test/java/com/example/demo/api/it/UploadIntegrationTest.java)
+[IT](src/test/java/com/example/demo/api/it/UploadIntegrationTest.java)  
 [コントローラのUT](src/test/java/com/example/demo/api/presentations/FirstControllerTest.java)
